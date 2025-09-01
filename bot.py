@@ -10,7 +10,7 @@ import os
 API_TOKEN = os.getenv("API_TOKEN")
 
 
-ADMIN_ID = 416293512               # <-- твой Telegram ID
+ADMIN_ID = 416293512
 
 bot = Bot(token=API_TOKEN)
 dp = Dispatcher(storage=MemoryStorage())
